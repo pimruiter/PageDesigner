@@ -5,8 +5,7 @@
         "magento/framework": "*",
         "magento/module-cms": "*",
         "magento/module-backend": "*",
-        "magenerds/dashboard": "*",
-        "magenerds/wysiwyg-widget": "^1.0"
+        "magenerds/wysiwyg-widget": "dev-master"
     },
     "conflict": {
         "magento/module-page-builder": "*",
@@ -23,5 +22,11 @@
         "psr-4": {
             "Magenerds\\PageDesigner\\": ""
         }
+    },
+    "repositories": {
+        "magenerds/wysiwyg-widget": {
+            "type": "git",
+            "url": "https://github.com/rakibabu/WysiwygWidget.git"
+        },
     }
 }
